@@ -1,0 +1,29 @@
+.home-images {
+    height: 22rem;
+    width: 22rem;
+    margin-top: 1rem;
+}
+
+.home-images img {
+    height: 22rem;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    color: darkblue;
+}
+
+.shopnow {
+    display: flex;
+    justify-content: center;
+}
+
+.button-solid-secondary {
+    background-color: white;
+}
