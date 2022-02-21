@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pdui.netlify.app/pdui.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="..//Components/Css/cart.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <a class="active" href="..//Views/index.html">MyStore</a>
+        <input class="search-bar" type="text" placeholder="Search">
+        <a href="..//Views/cart.html">Cart<span class="material-icons-outlined">
+            shopping_cart
+          </span>
+              </a>
+        <a href="..//Views/wishlist.html">WishList<span class="material-icons-outlined">
+       favorite_border
+        </span>
+          </a>
+        <a href="..//Views/login.html">Login</a>
+    </nav>
+    <div class="cart-container">
+        <div class="horizontal-card">
+            <img src="../Components/Images/tshirt.jpg" alt="">
+            <div class="horizontal-card-text">
+                <h2>Gorgeous White Shirt</h2>
+                <h4>RS.986 20%off</h4>
+                <div>
+                    <button class="increment-btn">+</button>
+                    <span class="quantity-value">1</span>
+                    <button class="decrement-btn">-</button>
+                </div>
+                <div class="button">
+                    <button class="remove-from-cart">Remove From Cart</button>
+                    <button>Move To Wishlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="price-card">
+            <h2>Price Details</h2>
+            <hr>
+            <div class="price-details">
+                <span>Price (2 items)</span>
+                <span>₹500</span>
+            </div>
+            <div class="price-details">
+                <span>Discount</span>
+                <span>₹200</span>
+            </div>
+            <div class="price-details">
+                <span>Deliverycharge</span>
+                <span>₹50</span>
+            </div>
+            <hr>
+            <div class="price-details">
+                <span>Total Amount</span>
+                <span>₹750</span>
+            </div>
+            <div class="price-details">
+                <span>You will save ₹200 on this order</span>
+            </div>
+            <button class="place-order-btn">Place Order</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

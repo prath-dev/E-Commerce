@@ -1,0 +1,39 @@
+    .sidebar {
+        background-color: white;
+        border-right: 2px solid darkblue;
+        overflow: auto;
+        color: black;
+        height: 41rem;
+    }
+    
+    .filter-heading {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        color: darkblue;
+        font-weight: 550;
+    }
+    
+    .Filters {
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    .filter-input {
+        font-style: italic;
+        display: block;
+        padding: 0.4rem;
+    }
+    
+    .cards-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    
+    .vertical-card {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        border: 2px solid blue;
+    }
