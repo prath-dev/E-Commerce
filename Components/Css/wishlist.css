@@ -1,0 +1,14 @@
+.Wishlist-header {
+    display: flex;
+    justify-content: center;
+    color: darkblue;
+}
+
+.vertical-card {
+    border: 2px solid blue;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-evenly;
+}
